@@ -1,0 +1,3 @@
+. "C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\microsoft.windows.sdk.buildtools\10.0.22621.3233\bin\10.0.22621.0\x64\mt.exe" -manifest .\Win32WebviewTemplate.manifest -outputresource:.\build\bin\Debug\Win32WebviewTemplate.exe;1
+
+."C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /fd SHA256 /v /s PrivateCertStore /n "Fany Test Certificate - For Internal Win32WebviewTemplate Use Only" /a .\build\bin\Debug\Win32WebviewTemplate.exe
